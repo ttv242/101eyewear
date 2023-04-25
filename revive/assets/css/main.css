@@ -230,12 +230,12 @@ th {
 }
 
 .section-gap {
-    padding: 130px 0;
+    padding: 65px 0;
 }
 
 @media (max-width: 991px) {
     .section-gap {
-        padding: 80px 0;
+        padding: 40px 0;
     }
 }
 
@@ -1656,10 +1656,11 @@ h6 {
 .menu-left a {
     margin-right: 26px;
     color: #000;
-    font-size: 14px;
-    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 @media (max-width: 1199px) {
@@ -1690,12 +1691,13 @@ h6 {
 }
 
 .menu-right .nav-item .nav-link {
-    margin: 0px 20px;
+    margin: 0px 10px;
     color: #000;
-    font-size: 14px;
-    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
-    font-style: italic;
+    /* font-style: italic; */
     padding: 38px 0px;
 }
 
@@ -2122,7 +2124,7 @@ h6 {
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .single-amenities .amenities-thumb {
@@ -2170,7 +2172,8 @@ h6 {
 
 .single-amenities .amenities-details h5 {
     font-size: 18px;
-    font-family: "Playfair Display", serif;
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Open Sans", sans-serif;
     margin: 0px 0px 20px;
 }
 
@@ -3303,4 +3306,13 @@ h6 {
 .footer-text a,
 .footer-text i {
     color: #ffffff;
+}
+
+.single-brand img {
+    transition: all .3s linear;
+}
+
+.single-brand img:hover {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    transition: all .3s linear;
 }
