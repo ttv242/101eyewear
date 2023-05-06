@@ -19,3 +19,8 @@ use App\Http\Controllers\PagesController;
 // });
 
 Route::get('/', [PagesController::class, 'index'])->name('index');
+Route::get('/gioi-thieu', [PagesController::class, 'blog'])->name('blog');
+Route::get('/danh-muc', [PagesController::class, 'category'])->name('category');
+Route::get('/lien-he', [PagesController::class, 'contact'])->name('contact');
+Route::get('/elements-page', [PagesController::class, 'elements'])->name('elements');
+Route::get('/archive-page', [PagesController::class, 'archive'])->name('archive');

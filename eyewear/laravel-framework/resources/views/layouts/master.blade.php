@@ -316,14 +316,14 @@
             <div class="header-wrap">
                 <div class="header-top d-flex justify-content-between align-items-lg-center navbar-expand-lg">
                     <div class="col menu-left">
-                        <a class="active" href="index.html">Trang chủ</a>
-                        <a href="modules/category.html">Thương hiệu</a>
-                        <a href="modules/archive.html">Archive</a>
+                        <a class="active" href="{{route('index')}}">Trang chủ</a>
+                        <a href="{{route('archive')}}">Thương hiệu</a>
+                        <a href="{{route('category')}}">Danh mục</a>
                     </div>
                     <div class="col-5 text-lg-center mt-2 mt-lg-0">
                         <span class="logo-outer">
                             <span class="logo-inner">
-                                <a href="index.html"><img class="col-lg-4 col-md-5 col-8 mx-auto"
+                                <a href="{{route('index')}}"><img class="col-lg-4 col-md-5 col-8 mx-auto"
                                         src="{{ asset('images/logo.png') }}" alt="" /></a>
                             </span>
                         </span>
@@ -338,21 +338,21 @@
                         <div class="collapse navbar-collapse menu-right" id="collapsibleNavbar">
                             <ul class="navbar-nav justify-content-center w-100">
                                 <li class="nav-item hide-lg">
-                                    <a class="nav-link" href="index.html">Trang chủ</a>
+                                    <a class="nav-link" href="{{route('index')}}">Trang chủ</a>
                                 </li>
                                 <li class="nav-item hide-lg">
-                                    <a class="nav-link" href="modules/category.html">Thương hiệu</a>
+                                    <a class="nav-link" href="{{route('archive')}}">Thương hiệu</a>
                                 </li>
 
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="modules/elements.html">Giới thiệu</a>
+                                    <a class="nav-link" href="{{route('blog')}}">Giới thiệu</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="modules/blog-single.html">Tin tức</a>
+                                    <a class="nav-link" href="{{route('elements')}}">Tin tức</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="modules/contact.html">Liên hệ</a>
+                                    <a class="nav-link" href="{{route('contact')}}">Liên hệ</a>
                                 </li>
                             </ul>
                         </div>
